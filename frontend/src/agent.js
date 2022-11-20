@@ -3,6 +3,7 @@ import _superagent from "superagent";
 
 const superagent = superagentPromise(_superagent, global.Promise);
 const idontknow = 123
+console.log(idontknow)
 const BACKEND_URL =
   process.env.NODE_ENV !== "production"
     ? process.env.REACT_APP_BACKEND_URL
